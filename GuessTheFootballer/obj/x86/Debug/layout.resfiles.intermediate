@@ -7,13 +7,16 @@ Assets\Square44x44Logo.targetsize-24_altform-unplated.png
 Assets\StoreLogo.png
 Assets\Wide310x150Logo.scale-200.png
 GuessTheFootballer.xr.xml
+Data\Teams.txt
 Images\AndyCole.jpg
 Images\AntonioValencia.jpg
+Images\Arsenal_FC.png
 Images\AshleyYoung.jpg
 Images\Barthez.jpg
 Images\Best.jpg
 Images\Butt.jpg
 Images\Cantona.jpg
+Images\Chelsea_FC.png
 Images\ChrisSmalling.jpg
 Images\CristianoRonaldo.jpg
 Images\DaleyBlind.jpg
@@ -28,7 +31,11 @@ Images\GaryNeville.jpg
 Images\Herrera.jpg
 Images\Ibra.jpg
 Images\JuanMata.jpg
+Images\Leicester_City.png
+Images\Liverpool_FC.png
 Images\LukeShaw.jpg
+Images\Manchester_City_FC.png
+Images\Manchester_United_FC.png
 Images\MarcosRojo.jpg
 Images\MarcusRashford.jpg
 Images\Martial.jpg
@@ -50,6 +57,7 @@ Images\Schneiderlin.jpg
 Images\Schweinsteiger.jpg
 Images\Sheringham.jpg
 Images\Solskjaer.jpg
+Images\Spurs.png
 Images\Stam.jpg
 Images\Timothy-Fosu-Mensah.jpg
 Images\VanDerSar.jpg

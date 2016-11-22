@@ -95,12 +95,16 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Converters\ObjectExistsToVisible.cs" />
     <Compile Include="Data\ThePlayers.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Model\Players.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModel\PlayerViewModel.cs" />
+    <Compile Include="ViewModel\TeamsViewModel.cs" />
+    <Compile Include="ViewModel\ViewModelHelpers.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -109,13 +113,16 @@
     <None Include="GuessTheFootballer_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Data\Teams.txt" />
     <Content Include="Images\AndyCole.jpg" />
     <Content Include="Images\AntonioValencia.jpg" />
+    <Content Include="Images\Arsenal_FC.png" />
     <Content Include="Images\AshleyYoung.jpg" />
     <Content Include="Images\Barthez.jpg" />
     <Content Include="Images\Best.jpg" />
     <Content Include="Images\Butt.jpg" />
     <Content Include="Images\Cantona.jpg" />
+    <Content Include="Images\Chelsea_FC.png" />
     <Content Include="Images\ChrisSmalling.jpg" />
     <Content Include="Images\CristianoRonaldo.jpg" />
     <Content Include="Images\DaleyBlind.jpg" />
@@ -130,7 +137,11 @@
     <Content Include="Images\Herrera.jpg" />
     <Content Include="Images\Ibra.jpg" />
     <Content Include="Images\JuanMata.jpg" />
+    <Content Include="Images\Leicester_City.png" />
+    <Content Include="Images\Liverpool_FC.png" />
     <Content Include="Images\LukeShaw.jpg" />
+    <Content Include="Images\Manchester_City_FC.png" />
+    <Content Include="Images\Manchester_United_FC.png" />
     <Content Include="Images\MarcosRojo.jpg" />
     <Content Include="Images\MarcusRashford.jpg" />
     <Content Include="Images\Martial.jpg" />
@@ -152,6 +163,7 @@
     <Content Include="Images\Schweinsteiger.jpg" />
     <Content Include="Images\Sheringham.jpg" />
     <Content Include="Images\Solskjaer.jpg" />
+    <Content Include="Images\Spurs.png" />
     <Content Include="Images\Stam.jpg" />
     <Content Include="Images\Timothy-Fosu-Mensah.jpg" />
     <Content Include="Images\VanDerSar.jpg" />
@@ -177,10 +189,7 @@
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Converters\" />
-    <Folder Include="ViewModel\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

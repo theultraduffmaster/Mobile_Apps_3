@@ -132,15 +132,23 @@ namespace GuessTheFootballer.GuessTheFootballer_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[3];
-            _typeNameTable[0] = "GuessTheFootballer.MainPage";
-            _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable = new string[7];
+            _typeNameTable[0] = "GuessTheFootballer.Converters.ObjectExistsToVisible";
+            _typeNameTable[1] = "Object";
+            _typeNameTable[2] = "GuessTheFootballer.MainPage";
+            _typeNameTable[3] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[4] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[5] = "GuessTheFootballer.ViewModel.TeamsViewModel";
+            _typeNameTable[6] = "GuessTheFootballer.ViewModel.NotificationBase";
 
-            _typeTable = new global::System.Type[3];
-            _typeTable[0] = typeof(global::GuessTheFootballer.MainPage);
-            _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable = new global::System.Type[7];
+            _typeTable[0] = typeof(global::GuessTheFootballer.Converters.ObjectExistsToVisible);
+            _typeTable[1] = typeof(global::System.Object);
+            _typeTable[2] = typeof(global::GuessTheFootballer.MainPage);
+            _typeTable[3] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[4] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[5] = typeof(global::GuessTheFootballer.ViewModel.TeamsViewModel);
+            _typeTable[6] = typeof(global::GuessTheFootballer.ViewModel.NotificationBase);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -175,7 +183,10 @@ namespace GuessTheFootballer.GuessTheFootballer_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_MainPage() { return new global::GuessTheFootballer.MainPage(); }
+        private object Activate_0_ObjectExistsToVisible() { return new global::GuessTheFootballer.Converters.ObjectExistsToVisible(); }
+        private object Activate_2_MainPage() { return new global::GuessTheFootballer.MainPage(); }
+        private object Activate_5_TeamsViewModel() { return new global::GuessTheFootballer.ViewModel.TeamsViewModel(); }
+        private object Activate_6_NotificationBase() { return new global::GuessTheFootballer.ViewModel.NotificationBase(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -187,30 +198,76 @@ namespace GuessTheFootballer.GuessTheFootballer_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  GuessTheFootballer.MainPage
-                userType = new global::GuessTheFootballer.GuessTheFootballer_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_MainPage;
+            case 0:   //  GuessTheFootballer.Converters.ObjectExistsToVisible
+                userType = new global::GuessTheFootballer.GuessTheFootballer_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_0_ObjectExistsToVisible;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 1:   //  Windows.UI.Xaml.Controls.Page
+            case 1:   //  Object
                 xamlType = new global::GuessTheFootballer.GuessTheFootballer_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 2:   //  Windows.UI.Xaml.Controls.UserControl
+            case 2:   //  GuessTheFootballer.MainPage
+                userType = new global::GuessTheFootballer.GuessTheFootballer_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_2_MainPage;
+                userType.AddMemberName("ViewTeams");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 3:   //  Windows.UI.Xaml.Controls.Page
                 xamlType = new global::GuessTheFootballer.GuessTheFootballer_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 4:   //  Windows.UI.Xaml.Controls.UserControl
+                xamlType = new global::GuessTheFootballer.GuessTheFootballer_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 5:   //  GuessTheFootballer.ViewModel.TeamsViewModel
+                userType = new global::GuessTheFootballer.GuessTheFootballer_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("GuessTheFootballer.ViewModel.NotificationBase"));
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 6:   //  GuessTheFootballer.ViewModel.NotificationBase
+                userType = new global::GuessTheFootballer.GuessTheFootballer_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_6_NotificationBase;
+                userType.SetIsLocalType();
+                xamlType = userType;
                 break;
             }
             return xamlType;
         }
 
 
+        private object get_0_MainPage_ViewTeams(object instance)
+        {
+            var that = (global::GuessTheFootballer.MainPage)instance;
+            return that.ViewTeams;
+        }
+        private void set_0_MainPage_ViewTeams(object instance, object Value)
+        {
+            var that = (global::GuessTheFootballer.MainPage)instance;
+            that.ViewTeams = (global::GuessTheFootballer.ViewModel.TeamsViewModel)Value;
+        }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
             global::GuessTheFootballer.GuessTheFootballer_XamlTypeInfo.XamlMember xamlMember = null;
-            // No Local Properties
+            global::GuessTheFootballer.GuessTheFootballer_XamlTypeInfo.XamlUserType userType;
+
+            switch (longMemberName)
+            {
+            case "GuessTheFootballer.MainPage.ViewTeams":
+                userType = (global::GuessTheFootballer.GuessTheFootballer_XamlTypeInfo.XamlUserType)GetXamlTypeByName("GuessTheFootballer.MainPage");
+                xamlMember = new global::GuessTheFootballer.GuessTheFootballer_XamlTypeInfo.XamlMember(this, "ViewTeams", "GuessTheFootballer.ViewModel.TeamsViewModel");
+                xamlMember.Getter = get_0_MainPage_ViewTeams;
+                xamlMember.Setter = set_0_MainPage_ViewTeams;
+                break;
+            }
             return xamlMember;
         }
     }

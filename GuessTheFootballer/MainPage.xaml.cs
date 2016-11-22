@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using GuessTheFootballer.ViewModel;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -25,7 +26,10 @@ namespace GuessTheFootballer
         public MainPage()
         {
             this.InitializeComponent();
+            ViewTeams = new ViewModel.TeamsViewModel();
         }
+
+        public TeamsViewModel ViewTeams { get; set; }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {

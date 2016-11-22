@@ -1,0 +1,42 @@
+[{"team" : "Arsenal", "founded" : "1886","stadium" : "Emirates Stadium", "stadium built" : "2004", "image" : "/Images/Arsenal_FC.png"},
+
+{
+    "team" : "Chelsea",
+	"founded" : "1905",
+	"stadium" : "Stamford Bridge",
+	"stadium built" : "1876",
+	"image" : "/Images/Chelsea_FC.png"},
+
+{	"team" : "Leicester", 
+	"founded" : "1884", 
+	"stadium" : "King Power Stadium", 
+	"stadium built" : "2002", 
+	"image" : "/Images/Leicester_City.png" },
+
+{	"team" : "Liverpool", 
+	"founded" : "1892", 
+	"stadium" : "Anfield", 
+	"stadium built" : "1884", 
+	"image" : "/Images/Liverpool_FC.png" },
+
+{	"team" : "Manchester City", 
+	"founded" : "1880", 
+	"stadium" : "Etihad Stadium", 
+	"stadium built" : "1999", 
+	"image" : "/Images/Manchester_City_FC.png" },
+
+{	"team" : "Manchester United", 
+	"founded" : "1878", 
+	"stadium" : "Old Trafford", 
+	"stadium built" : "1902", 
+	"image" : "/Images/Manchester_United_FC.png" },
+
+{	"team" : "Tottenham Hotspur", 
+	"founded" : "1882", 
+	"stadium" : "White Hart Lane", 
+	"stadium built" : "1898", 
+	"image" : "/Images/Spurs.png" }
+]
+
+
+

@@ -334,6 +334,9 @@
     <AppxPackagedFile Include="C:\Users\Declan\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Data\Teams.txt">
+      <PackagePath>Data\Teams.txt</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\AndyCole.jpg">
       <PackagePath>Images\AndyCole.jpg</PackagePath>
     </AppxPackagedFile>
@@ -481,8 +484,26 @@
     <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\WayneRooney.jpg">
       <PackagePath>Images\WayneRooney.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\Arsenal_FC.png">
+      <PackagePath>Images\Arsenal_FC.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\Chelsea_FC.png">
+      <PackagePath>Images\Chelsea_FC.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\Leicester_City.png">
+      <PackagePath>Images\Leicester_City.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\Liverpool_FC.png">
+      <PackagePath>Images\Liverpool_FC.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\Manchester_City_FC.png">
+      <PackagePath>Images\Manchester_City_FC.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\Manchester_United_FC.png">
+      <PackagePath>Images\Manchester_United_FC.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\Spurs.png">
+      <PackagePath>Images\Spurs.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -510,6 +531,9 @@
     <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\bin\x86\Debug\GuessTheFootballer.xr.xml">
       <PackagePath>GuessTheFootballer.xr.xml</PackagePath>

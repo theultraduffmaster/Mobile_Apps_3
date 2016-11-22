@@ -1,4 +1,5 @@
 [{"team" : "Arsenal", "founded" : "1886","stadium" : "Emirates Stadium", "stadium built" : "2004", "image" : "/Images/Arsenal_FC.png"},
+
 {
     "team" : "Chelsea",
 	"founded" : "1905",
@@ -27,7 +28,7 @@
 {	"team" : "Manchester United", 
 	"founded" : "1878", 
 	"stadium" : "Old Trafford", 
-	"stadium built" : "1902, 
+	"stadium built" : "1902", 
 	"image" : "/Images/Manchester_United_FC.png" },
 
 {	"team" : "Tottenham Hotspur", 
@@ -35,7 +36,6 @@
 	"stadium" : "White Hart Lane", 
 	"stadium built" : "1898", 
 	"image" : "/Images/Spurs.png" }
-
 ]
 
 
