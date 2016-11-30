@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-22T16:29:19.328</Modified>
+      <Modified>2016-11-29T15:24:47.235</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\bin\x86\Debug\GuessTheFootballer.exe">
       <PackagePath>entrypoint\GuessTheFootballer.exe</PackagePath>
-      <Modified>2016-11-22T16:29:16.529</Modified>
+      <Modified>2016-11-29T15:24:41.597</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Declan\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -450,7 +450,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Data\Teams.txt">
       <PackagePath>Data\Teams.txt</PackagePath>
-      <Modified>2016-11-22T11:49:07.184</Modified>
+      <Modified>2016-11-29T11:34:45.489</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\AndyCole.jpg">
       <PackagePath>Images\AndyCole.jpg</PackagePath>
@@ -716,7 +716,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\bin\x86\Debug\GuessTheFootballer.xr.xml">
       <PackagePath>GuessTheFootballer.xr.xml</PackagePath>
-      <Modified>2016-11-22T16:03:11.270</Modified>
+      <Modified>2016-11-29T15:24:40.902</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -725,11 +725,11 @@
     <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-22T16:29:18.706</Modified>
+      <Modified>2016-11-29T15:24:45.601</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\bin\x86\Debug\Core\GuessTheFootballer.exe">
       <PackagePath>GuessTheFootballer.exe</PackagePath>
-      <Modified>2016-11-22T16:29:19.322</Modified>
+      <Modified>2016-11-29T15:24:47.170</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -43,14 +43,24 @@
                 <ListView.ItemTemplate>
                     <DataTemplate x:DataType="viewModel:PlayerViewModel">
                         <TextBlock Text="{x:Bind Team, Mode=OneWay}" />
+
                     </DataTemplate>
-                    
+
+
                 </ListView.ItemTemplate>
             </ListView>
         </StackPanel>
-
+        <StackPanel>
+            <Button Name="BtnQuiz"  Content="Start Quiz?" Margin="150,13,0,0" Height="30" Width="100" Background="Red" Foreground="White" BorderBrush="White" Visibility="Visible" Click="BtnQuiz_Click" />
+            <Button Name="BtnQuiz2" Content="Start Quiz?" Margin="150,13,0,0" Height="30" Width="100" Background="Blue" Foreground="White" BorderBrush="White" Visibility="Visible" Click="BtnQuiz2_Click" />
+            <Button Name="BtnQuiz3" Content="Start Quiz?" Margin="150,13,0,0" Height="30" Width="100" Background="RoyalBlue" Foreground="White" BorderBrush="Goldenrod" Visibility="Visible" Click="BtnQuiz3_Click" />
+            <Button Name="BtnQuiz4" Content="Start Quiz?" Margin="150,15,0,0" Height="30" Width="100" Background="Crimson" Foreground="White" BorderBrush="DarkRed" Visibility="Visible" Click="BtnQuiz4_Click" />
+            <Button Name="BtnQuiz5" Content="Start Quiz?" Margin="150,15,0,0" Height="30" Width="100" Background="CornflowerBlue" Foreground="White" BorderBrush="CornflowerBlue" Visibility="Visible" Click="BtnQuiz5_Click" />
+            <Button Name="BtnQuiz6" Content="Start Quiz?" Margin="150,15,0,0" Height="30" Width="100" Background="Red" Foreground="White" BorderBrush="Black" Visibility="Visible" Click="BtnQuiz6_Click" />
+            <Button Name="BtnQuiz7" Content="Start Quiz?" Margin="150,13,0,0" Height="30" Width="100" Background="White" Foreground="Black" BorderBrush="Navy" Visibility="Visible" Click="BtnQuiz7_Click" />
+        </StackPanel>
         <StackPanel x:Name="InfoPanel" Grid.Column="2" Orientation="Vertical" Visibility="{x:Bind ViewTeams.SelectedPlayer, Mode=OneWay, Converter={StaticResource ObjectExistsToVisible}}" >
-           <TextBox IsReadOnly="True"
+            <TextBox Name="TxtBoxTeam" IsReadOnly="True"
                Text="{x:Bind ViewTeams.SelectedPlayer.Team, Mode=OneWay, FallbackValue=''}"
                Margin="5" />
             <TextBox IsReadOnly="True"
@@ -63,6 +73,25 @@
                Text="{x:Bind ViewTeams.SelectedPlayer.Stadium_Built, Mode=OneWay, FallbackValue='0'}"
                Margin="5" />
             <Image Source="{x:Bind ViewTeams.SelectedPlayer.Image, Mode=OneWay, FallbackValue='0'}" Height="100" Width="100" />
+            <!--<TextBox IsReadOnly="True"
+               ="{x:Bind ViewTeams.SelectedPlayer.Question, Mode=OneWay, FallbackValue='0'}"
+               Margin="5" />-->
+            
+            <Button Name="BtnArsYes" Content="Yes" Margin="10,40,0,0" Height="30" Width="40" Background="Green" Visibility="Visible" Click="BtnArsYes_Click" />
+            <Button Name="BtnArsNo" Content="No" Margin="70,-30,0,0" Height="30" Width="40" Background="Red" Visibility="Collapsed"/>
+            <Button Name="BtnCheYes" Content="Maybe" Margin="10,-30,0,0" Height="30" Width="40" Background="Green" Visibility="Collapsed"/>
+            <Button Name="BtnCheNo" Content="No" Margin="70,-30,0,0" Height="30" Width="40" Background="Red" Visibility="Collapsed"/>
+            <Button Name="BtnLeiYes" Content="Yes" Margin="10,-30,0,0" Height="30" Width="40" Background="Green" Visibility="Collapsed"/>
+            <Button Name="BtnLeiNo" Content="No" Margin="70,-30,0,0" Height="30" Width="40" Background="Red" Visibility="Collapsed"/>
+            <Button Name="BtnLivYes" Content="Yes" Margin="10,-30,0,0" Height="30" Width="40" Background="Green" Visibility="Collapsed"/>
+            <Button Name="BtnLivNo" Content="No" Margin="70,-30,0,0" Height="30" Width="40" Background="Red" Visibility="Collapsed"/>
+            <Button Name="BtnManCYes" Content="Yes" Margin="10,-30,0,0" Height="30" Width="40" Background="Green" Visibility="Collapsed"/>
+            <Button Name="BtnManCNo" Content="No" Margin="70,-30,0,0" Height="30" Width="40" Background="Red" Visibility="Collapsed"/>
+            <Button Name="BtnManUYes" Content="Yes" Margin="10,-30,0,0" Height="30" Width="40" Background="Green" Visibility="Collapsed"/>
+            <Button Name="BtnManUNo" Content="No" Margin="70,-30,0,0" Height="30" Width="40" Background="Red" Visibility="Collapsed"/>
+            <Button Name="BtnSpursYes" Content="Yes" Margin="10,-30,0,0" Height="30" Width="40" Background="Green" Visibility="Collapsed"/>
+            <Button Name="BtnSpursNo" Content="No" Margin="70,-30,0,0" Height="30" Width="40" Background="Red" Visibility="Collapsed"/>
+
         </StackPanel>
     </Grid>
 </Page>

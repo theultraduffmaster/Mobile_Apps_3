@@ -11,13 +11,13 @@
 	"founded" : "1884", 
 	"stadium" : "King Power Stadium", 
 	"stadium built" : "2002", 
-	"image" : "/Images/Leicester_City.png" },
+	"image" : "/Images/Leicester_City.png"},
 
 {	"team" : "Liverpool", 
 	"founded" : "1892", 
 	"stadium" : "Anfield", 
 	"stadium built" : "1884", 
-	"image" : "/Images/Liverpool_FC.png" },
+	"image" : "/Images/Liverpool_FC.png"},
 
 {	"team" : "Manchester City", 
 	"founded" : "1880", 
@@ -29,13 +29,13 @@
 	"founded" : "1878", 
 	"stadium" : "Old Trafford", 
 	"stadium built" : "1902", 
-	"image" : "/Images/Manchester_United_FC.png" },
+	"image" : "/Images/Manchester_United_FC.png"},
 
 {	"team" : "Tottenham Hotspur", 
 	"founded" : "1882", 
 	"stadium" : "White Hart Lane", 
 	"stadium built" : "1898", 
-	"image" : "/Images/Spurs.png" }
+	"image" : "/Images/Spurs.png"}
 ]
 
 

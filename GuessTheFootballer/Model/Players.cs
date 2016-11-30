@@ -66,6 +66,9 @@ namespace GuessTheFootballer.Model
                         case "image":
                             dTeam.image = value.GetString();
                             break;
+                        //case "question":
+                        //    dTeam.question = value.GetString();
+                          //  break;
                     } // end switch
                 } // end foreach (var key in oneTeam.keys)
                 fTeamsList.Add(dTeam);
