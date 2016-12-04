@@ -4,22 +4,35 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Data;
 
 namespace GuessTheFootballer.ViewModel
 {
     public class TeamsViewModel : NotificationBase
     {
+        public List<ThePlayers> _AllPlayers = new List<ThePlayers>();
         //This might be lowercase
         Model.Players teams;
 
         public TeamsViewModel()
         {
-            Model.Players test = new Model.Players();
+            //Model.Players test = new Model.Players();
 
-            foreach (var player in test.Teams)
+            //foreach (var player in test.Teams)
+            //{
+            // var np = new PlayerViewModel(player);
+            // _player.Add(np);
+            //}
+            LoadData();
+        }
+
+        public async void LoadData()
+        {
+            _AllPlayers = await GuessTheFootballer.Model.Players.LoadData();
+            foreach (var player in _AllPlayers)
             {
-                var np = new PlayerViewModel(player);
-                _player.Add(np);
+             var np = new PlayerViewModel(player);
+             _player.Add(np);
             }
         }
 

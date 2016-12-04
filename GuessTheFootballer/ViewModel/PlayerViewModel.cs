@@ -40,10 +40,10 @@ namespace GuessTheFootballer.ViewModel
             set { SetProperty(This.image, value, () => This.image = value); }
         }
 
-        //public String Question
-        //{
-          //  get { return This.question; }
-           // set { SetProperty(This.question, value, () => This.question = value); }
-       // }
+        public String Question
+        {
+            get { return This.question; }
+            set { SetProperty(This.question, value, () => This.question = value); }
+        }
     }
 }

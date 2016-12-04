@@ -13,7 +13,7 @@ namespace Data
         public string stadium { get; set; }
         public string stadium_built { get; set; }
         public string image { get; set; }
-        //public string question { get; set; }
+        public string question { get; set; }
 
     }
 }

@@ -10,7 +10,7 @@ using Data;
 
 namespace GuessTheFootballer.Model
 {
-    class Players
+    public class Players
     {
         public List<ThePlayers> Teams { get; set; }
         public static List<ThePlayers> fTeamsList = new List<ThePlayers>();
@@ -18,20 +18,26 @@ namespace GuessTheFootballer.Model
 
         public Players()
         {
-            LoadData();
-            Teams = fTeamsList;
+            //LoadData();
+            //Teams = fTeamsList;
         }
 
-        public static async Task LoadData()
+        public static async Task<List<ThePlayers>> LoadData()
         {
             await LoadLocalData();
+            return fTeamsList;
         }
 
         public static async Task LoadLocalData()
         {
-            var file = await Package.Current.InstalledLocation.GetFileAsync("Data\\Teams.txt");
-            var result = await FileIO.ReadTextAsync(file);
-
+            var result = "";
+            try
+            {
+                var file = await Package.Current.InstalledLocation.GetFileAsync("Data\\Teams.txt");
+                result = await FileIO.ReadTextAsync(file);
+            }
+            catch(Exception ex)
+            {  }
             var sTeamsList = JsonArray.Parse(result);
             CreateTeamsList(sTeamsList);
         }
@@ -66,9 +72,9 @@ namespace GuessTheFootballer.Model
                         case "image":
                             dTeam.image = value.GetString();
                             break;
-                        //case "question":
-                        //    dTeam.question = value.GetString();
-                          //  break;
+                        case "question":
+                            dTeam.question = value.GetString();
+                            break;
                     } // end switch
                 } // end foreach (var key in oneTeam.keys)
                 fTeamsList.Add(dTeam);
