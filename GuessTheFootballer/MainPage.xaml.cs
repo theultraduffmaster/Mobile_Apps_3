@@ -27,31 +27,19 @@ namespace GuessTheFootballer
         {
             this.InitializeComponent();
             ViewTeams = new ViewModel.TeamsViewModel();
-            TxtHighscore.Text = highscore.ToString();
-            
+
+
         }
 
         public TeamsViewModel ViewTeams { get; set; }
         public int highscore = 0;
-        
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-
-        }
-
 
         private void BtnQuiz_Click(object sender, RoutedEventArgs e)
         {
 
-                BtnArsYes.Visibility = Visibility.Visible;
-                BtnArsNo.Visibility = Visibility.Visible;
-            
+            BtnArsYes.Visibility = Visibility.Visible;
+            BtnArsNo.Visibility = Visibility.Visible;
+
 
 
 
@@ -60,14 +48,14 @@ namespace GuessTheFootballer
         private void BtnQuiz2_Click(object sender, RoutedEventArgs e)
         {
 
-                BtnCheYes.Visibility = Visibility.Visible;
-                BtnCheNo.Visibility = Visibility.Visible;
-           
+            BtnCheYes.Visibility = Visibility.Visible;
+            BtnCheNo.Visibility = Visibility.Visible;
+
         }
 
         private void BtnQuiz3_Click(object sender, RoutedEventArgs e)
         {
-       
+
             BtnLeiYes.Visibility = Visibility.Visible;
             BtnLeiNo.Visibility = Visibility.Visible;
         }
@@ -252,7 +240,7 @@ namespace GuessTheFootballer
 
         private void BtnNewGame_Click(object sender, RoutedEventArgs e)
         {
-            highscore=0;
+            highscore = 0;
             TxtHighscore.Text = highscore.ToString();
             BtnQuiz.Visibility = Visibility.Visible;
             BtnQuiz2.Visibility = Visibility.Visible;

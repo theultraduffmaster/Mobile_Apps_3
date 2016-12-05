@@ -31,8 +31,8 @@ namespace GuessTheFootballer.ViewModel
             _AllPlayers = await GuessTheFootballer.Model.Players.LoadData();
             foreach (var player in _AllPlayers)
             {
-             var np = new PlayerViewModel(player);
-             _player.Add(np);
+                var np = new PlayerViewModel(player);
+                _player.Add(np);
             }
         }
 

@@ -7,8 +7,8 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="472d0841-4e44-4fde-a51b-66e41df84f46" Publisher="CN=Declan" Version="1.0.0.0" ProcessorArchitecture="x86" />
-  <mp:PhoneIdentity PhoneProductId="472d0841-4e44-4fde-a51b-66e41df84f46" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="a96d7fb6-5563-484b-9e00-431fd2ee137b" Publisher="CN=Declan" Version="1.0.0.0" ProcessorArchitecture="x86" />
+  <mp:PhoneIdentity PhoneProductId="a96d7fb6-5563-484b-9e00-431fd2ee137b" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>GuessTheFootballer</DisplayName>
     <PublisherDisplayName>Declan</PublisherDisplayName>
@@ -19,6 +19,11 @@
   </Dependencies>
   <Resources>
     <Resource Language="EN-US" />
+    <Resource Language="DE-DE" />
+    <Resource Language="ES-ES" />
+    <Resource Language="FR-FR" />
+    <Resource Language="GA-IE" />
+    <Resource Language="IT-IT" />
   </Resources>
   <Applications>
     <Application Id="App" Executable="GuessTheFootballer.exe" EntryPoint="GuessTheFootballer.App">
@@ -37,7 +42,7 @@
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2015" />
     <build:Item Name="OperatingSystem" Version="10.0.14393.0 (rs1_release.160715-1616)" />
     <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="14.0.25431.1" />
-    <build:Item Name="ProjectGUID" Value="{ABC7AD2E-B863-47C6-A6B7-EE41A78D376B}" />
+    <build:Item Name="ProjectGUID" Value="{59EA9E69-383D-4CC9-B096-B0C30B9A4D01}" />
     <build:Item Name="OptimizingToolset" Value="None" />
     <build:Item Name="TargetRuntime" Value="Managed" />
     <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="14.0.25527.1" />

@@ -7,11 +7,11 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="472d0841-4e44-4fde-a51b-66e41df84f46"
+    Name="a96d7fb6-5563-484b-9e00-431fd2ee137b"
     Publisher="CN=Declan"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="472d0841-4e44-4fde-a51b-66e41df84f46" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="a96d7fb6-5563-484b-9e00-431fd2ee137b" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>GuessTheFootballer</DisplayName>

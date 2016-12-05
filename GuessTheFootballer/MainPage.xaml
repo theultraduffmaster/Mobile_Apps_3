@@ -11,8 +11,8 @@
 
     <Page.Resources>
         <converters:ObjectExistsToVisible x:Key="ObjectExistsToVisible" />
-    </Page.Resources> 
-    
+    </Page.Resources>
+
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <VisualStateManager.VisualStateGroups>
             <VisualStateGroup>
@@ -51,15 +51,15 @@
             </ListView>
         </StackPanel>
         <Canvas>
-            <Button Name="BtnQuiz"  Content="Start Quiz?" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="150,13,0,0" Height="30" Width="100" Background="Red" Foreground="White" BorderBrush="White" Visibility="Visible" Click="BtnQuiz_Click" />
-            <Button Name="BtnQuiz2" Content="Start Quiz?" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="150,58,0,0" Height="30" Width="100" Background="Blue" Foreground="White" BorderBrush="White" Visibility="Visible" Click="BtnQuiz2_Click" />
-            <Button Name="BtnQuiz3" Content="Start Quiz?" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"  Margin="150,101,0,0" Height="30" Width="100" Background="RoyalBlue" Foreground="White" BorderBrush="Goldenrod" Visibility="Visible" Click="BtnQuiz3_Click" />
-            <Button Name="BtnQuiz4" Content="Start Quiz?" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="150,145,0,0" Height="30" Width="100" Background="Crimson" Foreground="White" BorderBrush="DarkRed" Visibility="Visible" Click="BtnQuiz4_Click" />
-            <Button Name="BtnQuiz5" Content="Start Quiz?" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="150,189,0,0" Height="30" Width="100" Background="CornflowerBlue" Foreground="White" BorderBrush="CornflowerBlue" Visibility="Visible" Click="BtnQuiz5_Click" />
-            <Button Name="BtnQuiz6" Content="Start Quiz?" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="150,232,0,0" Height="30" Width="100" Background="Red" Foreground="White" BorderBrush="Black" Visibility="Visible" Click="BtnQuiz6_Click" />
-            <Button Name="BtnQuiz7" Content="Start Quiz?" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="150,277,0,0" Height="30" Width="100" Background="White" Foreground="Black" BorderBrush="Navy" Visibility="Visible" Click="BtnQuiz7_Click" />
+            <Button x:Uid="UidBtnQuiz" Name="BtnQuiz" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="150,13,0,0" Height="30" Width="100" Background="Red" Foreground="White" BorderBrush="White" Visibility="Visible" Click="BtnQuiz_Click" />
+            <Button x:Uid="UidBtnQuiz2" Name="BtnQuiz2" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="150,58,0,0" Height="30" Width="100" Background="Blue" Foreground="White" BorderBrush="White" Visibility="Visible" Click="BtnQuiz2_Click" />
+            <Button x:Uid="UidBtnQuiz3" Name="BtnQuiz3" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"  Margin="150,101,0,0" Height="30" Width="100" Background="RoyalBlue" Foreground="White" BorderBrush="Goldenrod" Visibility="Visible" Click="BtnQuiz3_Click" />
+            <Button x:Uid="UidBtnQuiz4" Name="BtnQuiz4" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="150,145,0,0" Height="30" Width="100" Background="Crimson" Foreground="White" BorderBrush="DarkRed" Visibility="Visible" Click="BtnQuiz4_Click" />
+            <Button x:Uid="UidBtnQuiz5" Name="BtnQuiz5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="150,189,0,0" Height="30" Width="100" Background="CornflowerBlue" Foreground="White" BorderBrush="CornflowerBlue" Visibility="Visible" Click="BtnQuiz5_Click" />
+            <Button x:Uid="UidBtnQuiz6" Name="BtnQuiz6" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="150,232,0,0" Height="30" Width="100" Background="Red" Foreground="White" BorderBrush="Black" Visibility="Visible" Click="BtnQuiz6_Click" />
+            <Button x:Uid="UidBtnQuiz7" Name="BtnQuiz7" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="150,277,0,0" Height="30" Width="100" Background="White" Foreground="Black" BorderBrush="Navy" Visibility="Visible" Click="BtnQuiz7_Click" />
             <TextBox Name="TxtHighscore" Margin="150,312,0,0" Height="30" Width="100"/>
-            <Button Name="BtnNewGame" Content="New Game?" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="150,277,0,0" Height="30" Width="100" Background="Purle" Foreground="White" BorderBrush="White" Visibility="Visible" Click="BtnNewGame_Click" />
+            <Button x:Uid="UidBtnNewGame" Name="BtnNewGame" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="150,346,0,0" Height="30" Width="100" Background="Purple" Foreground="White" BorderBrush="White" Visibility="Visible" Click="BtnNewGame_Click" />
 
         </Canvas>
         <StackPanel x:Name="InfoPanel" Grid.Column="2" Orientation="Vertical" Visibility="{x:Bind ViewTeams.SelectedPlayer, Mode=OneWay, Converter={StaticResource ObjectExistsToVisible}}" >
@@ -79,22 +79,22 @@
             <TextBox TextWrapping="Wrap" Width="500" IsReadOnly="True"
                Text="{x:Bind ViewTeams.SelectedPlayer.Question, Mode=OneWay, FallbackValue='0'}"
                Margin="5" />
-            
-            <Button Name="BtnArsYes" Content="Yes" Margin="10,40,0,0" Height="30" Width="40" Background="Green" Visibility="Collapsed" Click="BtnArsYes_Click" />
-            <Button Name="BtnArsNo" Content="No" Margin="70,-30,0,0" Height="30" Width="40" Background="Red" Visibility="Collapsed" Click="BtnArsNo_Click"/>
-            <Button Name="BtnCheYes" Content="Yes" Margin="10,-30,0,0" Height="30" Width="40" Background="Green" Visibility="Collapsed" Click="BtnCheYes_Click"/>
-            <Button Name="BtnCheNo" Content="No" Margin="70,-30,0,0" Height="30" Width="40" Background="Red" Visibility="Collapsed" Click="BtnCheNo_Click"/>
-            <Button Name="BtnLeiYes" Content="Yes" Margin="10,-30,0,0" Height="30" Width="40" Background="Green" Visibility="Collapsed" Click="BtnLeiYes_Click"/>
-            <Button Name="BtnLeiNo" Content="No" Margin="70,-30,0,0" Height="30" Width="40" Background="Red" Visibility="Collapsed" Click="BtnLeiNo_Click"/>
-            <Button Name="BtnLivYes" Content="Yes" Margin="10,-30,0,0" Height="30" Width="40" Background="Green" Visibility="Collapsed" Click="BtnLivYes_Click"/>
-            <Button Name="BtnLivNo" Content="No" Margin="70,-30,0,0" Height="30" Width="40" Background="Red" Visibility="Collapsed" Click="BtnLivNo_Click"/>
-            <Button Name="BtnManCYes" Content="Yes" Margin="10,-30,0,0" Height="30" Width="40" Background="Green" Visibility="Collapsed" Click="BtnManCYes_Click" />
-            <Button Name="BtnManCNo" Content="No" Margin="70,-30,0,0" Height="30" Width="40" Background="Red" Visibility="Collapsed" Click="BtnManCNo_Click"/>
-            <Button Name="BtnManUYes" Content="Yes" Margin="10,-30,0,0" Height="30" Width="40" Background="Green" Visibility="Collapsed" Click="BtnManUYes_Click"/>
-            <Button Name="BtnManUNo" Content="No" Margin="70,-30,0,0" Height="30" Width="40" Background="Red" Visibility="Collapsed" Click="BtnManUNo_Click"/>
-            <Button Name="BtnSpursYes" Content="Yes" Margin="10,-30,0,0" Height="30" Width="40" Background="Green" Visibility="Collapsed" Click="BtnSpursYes_Click"/>
-            <Button Name="BtnSpursNo" Content="No" Margin="70,-30,0,0" Height="30" Width="40" Background="Red" Visibility="Collapsed" Click="BtnSpursNo_Click"/>
-
+            <Canvas>
+            <Button x:Uid="UidBtnArsYes" Name="BtnArsYes" Margin="10,40,0,0" Height="30" Width="40" Background="Green" Visibility="Collapsed" Click="BtnArsYes_Click" />
+            <Button x:Uid="UidBtnArsNo" Name="BtnArsNo" Margin="70,40,0,0" Height="30" Width="40" Background="Red" Visibility="Collapsed" Click="BtnArsNo_Click"/>
+            <Button x:Uid="UidBtnCheYes" Name="BtnCheYes" Margin="10,40,0,0" Height="30" Width="40" Background="Green" Visibility="Collapsed" Click="BtnCheYes_Click"/>
+            <Button x:Uid="UidBtnCheNo" Name="BtnCheNo" Margin="70,40,0,0" Height="30" Width="40" Background="Red" Visibility="Collapsed" Click="BtnCheNo_Click"/>
+            <Button x:Uid="UidBtnLeiYes" Name="BtnLeiYes" Margin="10,40,0,0" Height="30" Width="40" Background="Green" Visibility="Collapsed" Click="BtnLeiYes_Click"/>
+            <Button x:Uid="UidBtnLeiNo" Name="BtnLeiNo" Margin="70,40,0,0" Height="30" Width="40" Background="Red" Visibility="Collapsed" Click="BtnLeiNo_Click"/>
+            <Button x:Uid="UidBtnLivYes" Name="BtnLivYes" Margin="10,40,0,0" Height="30" Width="40" Background="Green" Visibility="Collapsed" Click="BtnLivYes_Click"/>
+            <Button x:Uid="UidBtnLivNo" Name="BtnLivNo" Margin="70,40,0,0" Height="30" Width="40" Background="Red" Visibility="Collapsed" Click="BtnLivNo_Click"/>
+            <Button x:Uid="UidBtnManCYes" Name="BtnManCYes" Margin="10,40,0,0" Height="30" Width="40" Background="Green" Visibility="Collapsed" Click="BtnManCYes_Click" />
+            <Button x:Uid="UidBtnManCNo" Name="BtnManCNo" Margin="70,40,0,0" Height="30" Width="40" Background="Red" Visibility="Collapsed" Click="BtnManCNo_Click"/>
+            <Button x:Uid="UidBtnManUYes" Name="BtnManUYes" Margin="10,40,0,0" Height="30" Width="40" Background="Green" Visibility="Collapsed" Click="BtnManUYes_Click"/>
+            <Button x:Uid="UidBtnManUNo" Name="BtnManUNo" Margin="70,40,0,0" Height="30" Width="40" Background="Red" Visibility="Collapsed" Click="BtnManUNo_Click"/>
+            <Button x:Uid="UidBtnSpursYes" Name="BtnSpursYes" Margin="10,40,0,0" Height="30" Width="40" Background="Green" Visibility="Collapsed" Click="BtnSpursYes_Click"/>
+            <Button x:Uid="UidBtnSpursNo" Name="BtnSpursNo" Margin="70,40,0,0" Height="30" Width="40" Background="Red" Visibility="Collapsed" Click="BtnSpursNo_Click"/>
+            </Canvas>
         </StackPanel>
     </Grid>
 </Page>

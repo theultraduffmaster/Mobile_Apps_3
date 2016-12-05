@@ -8,33 +8,33 @@
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
-    <PackageIdentityName>472d0841-4e44-4fde-a51b-66e41df84f46</PackageIdentityName>
+    <PackageIdentityName>a96d7fb6-5563-484b-9e00-431fd2ee137b</PackageIdentityName>
     <PackageIdentityPublisher>CN=Declan</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Declan\Downloads\GuessTheFootballer\GuessTheFootballer\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>7E203757AC228F3D1CDA80688ACA31C43EA19199CF69AD15AD687B00BA553EBB</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>472d0841-4e44-4fde-a51b-66e41df84f46_1.0.0.0_x86__kgwg4abayqkrg</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>472d0841-4e44-4fde-a51b-66e41df84f46_kgwg4abayqkrg!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>472d0841-4e44-4fde-a51b-66e41df84f46</RegisteredPackageID>
+    <RegisteredManifestChecksum>70265529824BC18532E6943D26F38E24DDE4AE4FC723B1E025F370E5A01EA748</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>a96d7fb6-5563-484b-9e00-431fd2ee137b_1.0.0.0_x86__kgwg4abayqkrg</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>a96d7fb6-5563-484b-9e00-431fd2ee137b_kgwg4abayqkrg!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>a96d7fb6-5563-484b-9e00-431fd2ee137b</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=Declan</RegisteredPackagePublisher>
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Declan\Downloads\GuessTheFootballer\GuessTheFootballer\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-04T12:09:11.355</Modified>
+      <Modified>2016-12-05T20:28:26.772</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\bin\x86\Debug\GuessTheFootballer.exe">
+    <AppxPackagedFile Include="C:\Users\Declan\Downloads\GuessTheFootballer\GuessTheFootballer\bin\x86\Debug\GuessTheFootballer.exe">
       <PackagePath>entrypoint\GuessTheFootballer.exe</PackagePath>
-      <Modified>2016-12-04T12:08:24.559</Modified>
+      <Modified>2016-12-05T20:17:21.096</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Declan\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -448,288 +448,92 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-07-22T22:11:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Data\Teams.txt">
+    <AppxPackagedFile Include="C:\Users\Declan\Downloads\GuessTheFootballer\GuessTheFootballer\Data\Teams.txt">
       <PackagePath>Data\Teams.txt</PackagePath>
       <Modified>2016-11-30T12:28:28.211</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\AndyCole.jpg">
-      <PackagePath>Images\AndyCole.jpg</PackagePath>
-      <Modified>2016-10-12T10:53:31.254</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\AntonioValencia.jpg">
-      <PackagePath>Images\AntonioValencia.jpg</PackagePath>
-      <Modified>2016-10-12T10:39:11.266</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\AshleyYoung.jpg">
-      <PackagePath>Images\AshleyYoung.jpg</PackagePath>
-      <Modified>2016-10-12T10:39:33.878</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\Barthez.jpg">
-      <PackagePath>Images\Barthez.jpg</PackagePath>
-      <Modified>2016-10-12T10:30:41.070</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\Best.jpg">
-      <PackagePath>Images\Best.jpg</PackagePath>
-      <Modified>2016-10-12T10:54:15.928</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\Butt.jpg">
-      <PackagePath>Images\Butt.jpg</PackagePath>
-      <Modified>2016-10-12T11:04:17.943</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\Cantona.jpg">
-      <PackagePath>Images\Cantona.jpg</PackagePath>
-      <Modified>2016-10-12T10:52:02.797</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\ChrisSmalling.jpg">
-      <PackagePath>Images\ChrisSmalling.jpg</PackagePath>
-      <Modified>2016-10-12T10:47:09.045</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\CristianoRonaldo.jpg">
-      <PackagePath>Images\CristianoRonaldo.jpg</PackagePath>
-      <Modified>2016-10-12T10:28:24.172</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\DaleyBlind.jpg">
-      <PackagePath>Images\DaleyBlind.jpg</PackagePath>
-      <Modified>2016-10-12T10:42:41.398</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\DavidBeckham.jpg">
-      <PackagePath>Images\DavidBeckham.jpg</PackagePath>
-      <Modified>2016-10-12T10:36:38.177</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\DeGea.jpg">
-      <PackagePath>Images\DeGea.jpg</PackagePath>
-      <Modified>2016-10-12T10:36:05.822</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\Depay.jpg">
-      <PackagePath>Images\Depay.jpg</PackagePath>
-      <Modified>2016-10-12T10:42:56.418</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\DwightYorke.jpg">
-      <PackagePath>Images\DwightYorke.jpg</PackagePath>
-      <Modified>2016-10-12T10:53:07.265</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\EricBailly.jpg">
-      <PackagePath>Images\EricBailly.jpg</PackagePath>
-      <Modified>2016-10-12T10:41:25.413</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\Fellaini.jpg">
-      <PackagePath>Images\Fellaini.jpg</PackagePath>
-      <Modified>2016-10-12T10:49:01.779</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\GabrielHeinze.jpg">
-      <PackagePath>Images\GabrielHeinze.jpg</PackagePath>
-      <Modified>2016-10-12T10:29:23.028</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\GaryNeville.jpg">
-      <PackagePath>Images\GaryNeville.jpg</PackagePath>
-      <Modified>2016-10-12T10:32:24.398</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\Herrera.jpg">
-      <PackagePath>Images\Herrera.jpg</PackagePath>
-      <Modified>2016-10-12T10:43:32.487</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\Ibra.jpg">
-      <PackagePath>Images\Ibra.jpg</PackagePath>
-      <Modified>2016-10-12T10:38:12.785</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\JuanMata.jpg">
-      <PackagePath>Images\JuanMata.jpg</PackagePath>
-      <Modified>2016-10-12T10:43:16.640</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\LukeShaw.jpg">
-      <PackagePath>Images\LukeShaw.jpg</PackagePath>
-      <Modified>2016-10-12T10:46:35.550</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\MarcosRojo.jpg">
-      <PackagePath>Images\MarcosRojo.jpg</PackagePath>
-      <Modified>2016-10-12T10:41:52.419</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\MarcusRashford.jpg">
-      <PackagePath>Images\MarcusRashford.jpg</PackagePath>
-      <Modified>2016-10-12T10:44:03.585</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\Martial.jpg">
-      <PackagePath>Images\Martial.jpg</PackagePath>
-      <Modified>2016-10-12T10:47:47.619</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\MichaelCarrick.jpg">
-      <PackagePath>Images\MichaelCarrick.jpg</PackagePath>
-      <Modified>2016-10-12T10:34:50.774</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\MichaelOwen.jpg">
-      <PackagePath>Images\MichaelOwen.jpg</PackagePath>
-      <Modified>2016-10-12T10:58:11.607</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\Mkhitaryan.jpg">
-      <PackagePath>Images\Mkhitaryan.jpg</PackagePath>
-      <Modified>2016-10-12T10:48:38.039</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\Nani.jpg">
-      <PackagePath>Images\Nani.jpg</PackagePath>
-      <Modified>2016-10-12T10:39:50.351</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\PatriceEvra.jpg">
-      <PackagePath>Images\PatriceEvra.jpg</PackagePath>
-      <Modified>2016-10-12T10:32:46.429</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\PaulScholes.jpg">
-      <PackagePath>Images\PaulScholes.jpg</PackagePath>
-      <Modified>2016-10-12T10:33:49.525</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\PeterSchmeichel.jpg">
-      <PackagePath>Images\PeterSchmeichel.jpg</PackagePath>
-      <Modified>2016-10-12T11:01:06.123</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\PhilNeville.jpg">
-      <PackagePath>Images\PhilNeville.jpg</PackagePath>
-      <Modified>2016-10-12T10:40:53.759</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\Pogba.jpg">
-      <PackagePath>Images\Pogba.jpg</PackagePath>
-      <Modified>2016-10-12T10:37:45.716</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\RioFerdinand.jpg">
-      <PackagePath>Images\RioFerdinand.jpg</PackagePath>
-      <Modified>2016-10-12T10:31:43.526</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\RobinVanPersie.jpg">
-      <PackagePath>Images\RobinVanPersie.jpg</PackagePath>
-      <Modified>2016-10-12T10:35:08.865</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\RoyKeane.jpg">
-      <PackagePath>Images\RoyKeane.jpg</PackagePath>
-      <Modified>2016-10-12T10:27:42.233</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\RuudVanNistelrooy.jpg">
-      <PackagePath>Images\RuudVanNistelrooy.jpg</PackagePath>
-      <Modified>2016-10-12T10:26:01.039</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\RyanGiggs.jpg">
-      <PackagePath>Images\RyanGiggs.jpg</PackagePath>
-      <Modified>2016-10-12T10:33:27.242</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\Schneiderlin.jpg">
-      <PackagePath>Images\Schneiderlin.jpg</PackagePath>
-      <Modified>2016-10-12T10:49:49.617</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\Schweinsteiger.jpg">
-      <PackagePath>Images\Schweinsteiger.jpg</PackagePath>
-      <Modified>2016-10-12T10:49:26.527</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\Sheringham.jpg">
-      <PackagePath>Images\Sheringham.jpg</PackagePath>
-      <Modified>2016-10-12T10:52:36.869</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\Solskjaer.jpg">
-      <PackagePath>Images\Solskjaer.jpg</PackagePath>
-      <Modified>2016-10-12T10:53:52.018</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\Stam.jpg">
-      <PackagePath>Images\Stam.jpg</PackagePath>
-      <Modified>2016-10-12T11:04:45.770</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\Timothy-Fosu-Mensah.jpg">
-      <PackagePath>Images\Timothy-Fosu-Mensah.jpg</PackagePath>
-      <Modified>2016-10-12T10:47:25.379</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\VanDerSar.jpg">
-      <PackagePath>Images\VanDerSar.jpg</PackagePath>
-      <Modified>2016-10-12T10:31:14.425</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\Veron.jpg">
-      <PackagePath>Images\Veron.jpg</PackagePath>
-      <Modified>2016-10-12T10:29:54.160</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\Vidic.jpg">
-      <PackagePath>Images\Vidic.jpg</PackagePath>
-      <Modified>2016-10-12T10:32:03.688</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\WayneRooney.jpg">
-      <PackagePath>Images\WayneRooney.jpg</PackagePath>
-      <Modified>2016-10-12T10:34:10.725</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\Arsenal_FC.png">
+    <AppxPackagedFile Include="C:\Users\Declan\Downloads\GuessTheFootballer\GuessTheFootballer\Images\Arsenal_FC.png">
       <PackagePath>Images\Arsenal_FC.png</PackagePath>
       <Modified>2016-11-03T18:08:40.065</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\Chelsea_FC.png">
+    <AppxPackagedFile Include="C:\Users\Declan\Downloads\GuessTheFootballer\GuessTheFootballer\Images\Chelsea_FC.png">
       <PackagePath>Images\Chelsea_FC.png</PackagePath>
       <Modified>2016-11-03T18:09:04.002</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\Leicester_City.png">
+    <AppxPackagedFile Include="C:\Users\Declan\Downloads\GuessTheFootballer\GuessTheFootballer\Images\Leicester_City.png">
       <PackagePath>Images\Leicester_City.png</PackagePath>
       <Modified>2016-11-03T18:09:36.826</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\Liverpool_FC.png">
+    <AppxPackagedFile Include="C:\Users\Declan\Downloads\GuessTheFootballer\GuessTheFootballer\Images\Liverpool_FC.png">
       <PackagePath>Images\Liverpool_FC.png</PackagePath>
       <Modified>2016-11-03T18:25:11.844</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\Manchester_City_FC.png">
+    <AppxPackagedFile Include="C:\Users\Declan\Downloads\GuessTheFootballer\GuessTheFootballer\Images\Manchester_City_FC.png">
       <PackagePath>Images\Manchester_City_FC.png</PackagePath>
       <Modified>2016-11-03T18:26:27.248</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\Manchester_United_FC.png">
+    <AppxPackagedFile Include="C:\Users\Declan\Downloads\GuessTheFootballer\GuessTheFootballer\Images\Manchester_United_FC.png">
       <PackagePath>Images\Manchester_United_FC.png</PackagePath>
       <Modified>2016-11-03T18:26:43.938</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Images\Spurs.png">
+    <AppxPackagedFile Include="C:\Users\Declan\Downloads\GuessTheFootballer\GuessTheFootballer\Images\Spurs.png">
       <PackagePath>Images\Spurs.png</PackagePath>
       <Modified>2016-11-03T18:25:29.693</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Declan\Downloads\GuessTheFootballer\GuessTheFootballer\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2015-09-20T16:30:08.000</Modified>
+      <Modified>2015-09-20T17:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Declan\Downloads\GuessTheFootballer\GuessTheFootballer\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T16:30:08.000</Modified>
+      <Modified>2015-09-20T17:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Declan\Downloads\GuessTheFootballer\GuessTheFootballer\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T16:30:08.000</Modified>
+      <Modified>2015-09-20T17:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Declan\Downloads\GuessTheFootballer\GuessTheFootballer\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T16:30:08.000</Modified>
+      <Modified>2015-09-20T17:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Declan\Downloads\GuessTheFootballer\GuessTheFootballer\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T16:30:08.000</Modified>
+      <Modified>2015-09-20T17:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Declan\Downloads\GuessTheFootballer\GuessTheFootballer\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T16:30:08.000</Modified>
+      <Modified>2015-09-20T17:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Declan\Downloads\GuessTheFootballer\GuessTheFootballer\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T16:30:08.000</Modified>
+      <Modified>2015-09-20T17:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Declan\Downloads\GuessTheFootballer\GuessTheFootballer\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2016-10-12T10:16:05.217</Modified>
+      <Modified>2016-12-05T17:53:35.454</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\bin\x86\Debug\GuessTheFootballer.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Declan\Downloads\GuessTheFootballer\GuessTheFootballer\bin\x86\Debug\GuessTheFootballer.xr.xml">
       <PackagePath>GuessTheFootballer.xr.xml</PackagePath>
-      <Modified>2016-12-04T11:42:18.724</Modified>
+      <Modified>2016-12-05T20:02:08.540</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2016-11-02T11:38:05.861</Modified>
+      <Modified>2016-12-04T16:45:26.727</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Declan\Downloads\GuessTheFootballer\GuessTheFootballer\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-04T12:08:57.657</Modified>
+      <Modified>2016-12-05T20:28:25.427</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Declan\documents\visual studio 2015\Projects\GuessTheFootballer\GuessTheFootballer\bin\x86\Debug\Core\GuessTheFootballer.exe">
+    <AppxPackagedFile Include="C:\Users\Declan\Downloads\GuessTheFootballer\GuessTheFootballer\bin\x86\Debug\Core\GuessTheFootballer.exe">
       <PackagePath>GuessTheFootballer.exe</PackagePath>
-      <Modified>2016-12-04T12:09:11.350</Modified>
+      <Modified>2016-12-05T20:28:26.761</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

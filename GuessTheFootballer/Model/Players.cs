@@ -36,8 +36,8 @@ namespace GuessTheFootballer.Model
                 var file = await Package.Current.InstalledLocation.GetFileAsync("Data\\Teams.txt");
                 result = await FileIO.ReadTextAsync(file);
             }
-            catch(Exception ex)
-            {  }
+            catch (Exception ex)
+            { }
             var sTeamsList = JsonArray.Parse(result);
             CreateTeamsList(sTeamsList);
         }
